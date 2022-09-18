@@ -1,0 +1,12 @@
+import random 
+x=0
+number=random.randint(1,100)
+while x!=number:
+ x=int(input('quess a number:'))
+ if number==x:
+        print ("you have found the right number")
+ if number>x:
+        print ("the number is larger then x")
+ if number<x:
+        print ("the number is smaller the x")
+        print ()
